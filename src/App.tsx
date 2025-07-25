@@ -1,8 +1,15 @@
+import HeaderPage from './containers/HeaderPage';
+
+import EstiloGlobal, { Container } from './styles';
+
 function App() {
   return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
+    <>
+      <EstiloGlobal />
+      <Container>
+        <HeaderPage />
+      </Container>
+    </>
   );
 }
 
