@@ -1,12 +1,11 @@
 import styled from 'styled-components';
 
-export const HeaderDiv = styled.div`
-  height: 30vh;
-`;
+export const HeaderDiv = styled.div``;
 
 export const LogoImage = styled.img`
+  display: block;
   margin: 16px auto;
-  height: 150px;
+  height: 120px;
 `;
 
 export const PageTitle = styled.h1`

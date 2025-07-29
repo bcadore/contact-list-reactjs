@@ -1,3 +1,4 @@
+import ContactList from './containers/ContactList';
 import HeaderPage from './containers/HeaderPage';
 
 import EstiloGlobal, { Container } from './styles';
@@ -8,6 +9,7 @@ function App() {
       <EstiloGlobal />
       <Container>
         <HeaderPage />
+        <ContactList />
       </Container>
     </>
   );
